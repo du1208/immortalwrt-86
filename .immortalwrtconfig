@@ -1,4 +1,4 @@
-#
+# KERNEL_PARTSIZE=32MB ROOTFS_PARTSIZE=160MB
 # Automatically generated file; DO NOT EDIT.
 # ImmortalWrt Configuration
 #
