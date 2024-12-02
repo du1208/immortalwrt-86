@@ -4,7 +4,7 @@
 # Description: Build OpenWrt
 #============================================================================================
 
-name: Build OpenWrt
+name: Amlogic_ImmortalWrt Builder
 
 on:
   repository_dispatch:
@@ -80,7 +80,7 @@ on:
           - dudu
 
 env:
-  FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
+  FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.defa
   CONFIG_FILE: config/${{ inputs.source_branch }}/config
   DIY_P1_SH: config/${{ inputs.source_branch }}/diy-part1.sh
   DIY_P2_SH: config/${{ inputs.source_branch }}/diy-part2.sh
