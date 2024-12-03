@@ -1,5 +1,5 @@
 #
-# 只有ssrplus
+# KERNEL_PARTSIZE=32MB ROOTFS_PARTSIZE=160MB 包含ssrplus插件
 # Automatically generated file; DO NOT EDIT.
 # LEDE Configuration
 #
