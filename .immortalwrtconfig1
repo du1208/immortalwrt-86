@@ -1,5 +1,5 @@
 #
-# KERNEL_PARTSIZE=32MB ROOTFS_PARTSIZE=160MB 包含ssrplus插件和passwall插件
+# KERNEL_PARTSIZE=32MB ROOTFS_PARTSIZE=160MB 包含ssrplus插件和passwall插件,不含ex4格式
 # Automatically generated file; DO NOT EDIT.
 # ImmortalWrt Configuration
 #
