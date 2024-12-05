@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: ImmortalWrt Builder
+name: Amlogic_ImmortalWrt Builder
 
 on:
   repository_dispatch:
