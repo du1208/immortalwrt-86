@@ -41,9 +41,11 @@ jobs:
         sudo timedatectl set-timezone "$TZ"
         git clone --depth 1 https://github.com/ophub/amlogic-s9xxx-openwrt.git
         sudo mkdir -p /amlogic-s9xxx-openwrt/openwrt-armvirt
-        wget https://downloads.immortalwrt.org/releases/23.05.4/targets/armsr/armv8/generic-squashfs-rootfs.img.gz /amlogic-s9xxx-openwrt/openwrt-armvirt/
+        wget https://downloads.immortalwrt.org/releases/23.05.4/targets/armsr/armv8/immortalwrt-23.05.4-armsr-armv8-generic-squashfs-rootfs.img.gz /amlogic-s9xxx-openwrt/openwrt-armvirt/
         cd amlogic-s9xxx-openwrt
         sudo ./remake -b s905x3 -k 6.1.10
+        ls -l ./
+        ls -l ./out
 
     - name: Upload firmware directory
       uses: actions/upload-artifact@main
